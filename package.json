@@ -1,0 +1,34 @@
+{
+  "name": "magic72",
+  "version": "123",
+  "description": "Html5 Client",
+  "main": "build.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clone": "node deployScript/clone.js",
+    "package": "node deployScript/package.js",
+    "deploy": "node deployScript/deploy.js",
+    "gen-release-log": "node deployScript/gen-release-log.js"
+  },
+  "author": "Ivan Tam",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-webpack": "^3.1.2",
+    "ignore-emit-webpack-plugin": "^1.0.1",
+    "maven-deploy": "^1.5.0",
+    "node-run-cmd": "^1.0.1",
+    "slot-kit": "^32",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  }
+}
+S
